@@ -1,11 +1,16 @@
-# Tri2---p5longhorns
-##Members:
-- James Hunt
-- Manuel Villa-Hernandez
-- Francis Lim
-- Marc Humeau
-
-##Project Idea
-- We are going for an information website about topics that people would find interesting. 
-- One main idea is an industry news website that gives readers the latest news on what is happening in certain industries, such as Hollywood and the music industry.
-- Another idea that we had was a virtual museum for some kind of history, such as art, music, or even gaming. We would show a chronological progression of the genre using images and examples from the time frame.
+### Raspberry Pi Run Instructions
+   **Deployment Process**
+   
+   1 - Obtain git location, login to Github on Pi Browser, copy HTTPS address, Run Git Clone within Terminal, Continue in the Terminal and run Web Server on Pi Browser using Local Host
+   
+   2 - Find the IP Address of Specific Raspberry Pi, Edit main.py file of project to reflect the IP Address of Raspberry Pi
+   
+   3 - Login in to home router, Reserve an IP Address for you Raspberry Pi on your home router through allocation, Setup port forwarding to your Raspberry Pi through Service Assignment, Find public IP address of Raspberry Pi
+   
+   **Run Instructions from Terminal**
+   
+   1 - ssh pi@[IP] (enter password)
+   
+   2 - cd Tri1---HTML-Portfolio/
+   
+   3 - python3 main.py
