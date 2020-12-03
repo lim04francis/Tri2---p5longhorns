@@ -1,4 +1,17 @@
-### Raspberry Pi Run Instructions
+#Tri 2 Period 5 Longhorns
+###Members:
+- James Hunt
+- Francis Lim
+- Manuel Villa-Hernandez
+- Marc Humeau
+
+##Project Ideas
+- Our first project idea is an industry news website. This would give readers the latest information about certain industries, such as Hollywood and the music industry
+- Our second project idea is an virtual art museum. We would show the history of certain genres, such as music, painting, and even gaming.
+
+
+
+## Raspberry Pi Run Instructions
    **Deployment Process**
    
    1 - Obtain git location, login to Github on Pi Browser, copy HTTPS address, Run Git Clone within Terminal, Continue in the Terminal and run Web Server on Pi Browser using Local Host
