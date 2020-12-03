@@ -1,11 +1,12 @@
-#Tri 2 Period 5 Longhorns
-###Members:
+# Tri 2 Period 5 Longhorns
+
+### Members:
 - James Hunt
 - Francis Lim
 - Manuel Villa-Hernandez
 - Marc Humeau
 
-##Project Ideas
+## Project Ideas
 - Our first project idea is an industry news website. This would give readers the latest information about certain industries, such as Hollywood and the music industry
 - Our second project idea is an virtual art museum. We would show the history of certain genres, such as music, painting, and even gaming.
 
