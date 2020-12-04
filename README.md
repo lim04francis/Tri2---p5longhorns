@@ -18,7 +18,7 @@
 
 
 ## Scrum Board
-[Period 5 Longhorns](https://github.com/lim04francis/Tri2---p5longhorns/projects)
+[Period 5 Longhorns](https://github.com/lim04francis/Tri2---p5longhorns/projects/1)
 
 # Log of Changes
 [Log](https://github.com/lim04francis/Tri2---p5longhorns/projects/2)
