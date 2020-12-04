@@ -3,7 +3,7 @@
 ### Members:
 - James Hunt
 - Francis Lim
-- Manuel Villa-Hernandez;Mewe14
+- Manuel Villa-Hernandez
 - Marc Humeau
 
 ## Project Ideas
@@ -12,7 +12,7 @@
 
 #### Contributions 
 
-| Manuel        | Marc/marchumeau                              |  Francis  | James/Bob1437                                   |
+| Manuel/Mewe14        | Marc/marchumeau                              |  Francis  | James/Bob1437                                   |
 | ------------- |:-------------                                | -----:    |:----                                            |
 | [contributions](https://github.com/Mewe14)               |[Contributions](https://github.com/marchumeau)|           |[Contributions](https://github.com/Bob1437)      |
 
