@@ -1,10 +1,10 @@
 # Tri 2 Period 5 Longhorns
 
 ### Members and Github Usernames:
-- James Hunt:Bob1437
+- James Hunt: Bob1437
 - Francis Lim
 - Manuel Villa-Hernandez
-- Marc Humeau, marchumeau
+- Marc Humeau: marchumeau
 
 ## Project Ideas
 - Our first project idea is an industry news website. This would give readers the latest information about certain industries, such as Hollywood and the music industry
