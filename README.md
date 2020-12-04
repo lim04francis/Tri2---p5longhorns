@@ -18,7 +18,13 @@
 
 
 ## Scrum Board
-[Period 5 Longhornds](https://github.com/lim04francis/Tri2---p5longhorns/projects)
+[Period 5 Longhorns](https://github.com/lim04francis/Tri2---p5longhorns/projects)
+
+# Log of Changes
+
+### Week 0
+- Added the README file
+- Added necessary information into README
 
 ## Raspberry Pi Run Instructions
    **Deployment Process**
