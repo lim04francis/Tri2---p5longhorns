@@ -12,11 +12,11 @@
 
 #### Contributions 
 
-| Manuel        | Marc           | Francis  | James|
-| ------------- |:-------------:| -----:    |----:|
-|               |               |           |      |
-|       |       |    | |
-|  |       |     | |
+| Manuel        | Marc, marchumeau            |  Francis  | James|
+| ------------- |:-------------               | -----:    |----: |
+|               |https://github.com/marchumeau|           |      |
+|               |                             |           |      |
+|               |                             |           |      |
 
 ## Raspberry Pi Run Instructions
    **Deployment Process**
