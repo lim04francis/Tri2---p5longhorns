@@ -17,6 +17,9 @@
 | [contributions](https://github.com/Mewe14)               |[Contributions](https://github.com/marchumeau)|[Contributions](https://github.com/lim04francis)|[Contributions](https://github.com/Bob1437)      |
 
 
+## Scrum Board
+[Period 5 Longhornds](https://github.com/lim04francis/Tri2---p5longhorns/projects)
+
 ## Raspberry Pi Run Instructions
    **Deployment Process**
    
