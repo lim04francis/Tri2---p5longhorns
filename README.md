@@ -21,7 +21,7 @@
 [Period 5 Longhorns](https://github.com/lim04francis/Tri2---p5longhorns/projects)
 
 # Log of Changes
-
+[Log](https://github.com/lim04francis/Tri2---p5longhorns/projects/2)
 
 # Raspberry Pi Run Instructions
    **Deployment Process**
