@@ -14,7 +14,7 @@
 
 | Manuel/Mewe14        | Marc/marchumeau                              |  Francis/lim04francis  | James/Bob1437                                   |
 | ------------- |:-------------                                |:-----    |:----                                            |
-| [contributions](https://github.com/Mewe14)               |[Contributions](https://github.com/marchumeau)|[Contributions](https://github.com/lim04francis)|[Contributions](https://github.com/Bob1437)      |
+| [Contributions](https://github.com/Mewe14)               |[Contributions](https://github.com/marchumeau)|[Contributions](https://github.com/lim04francis)|[Contributions](https://github.com/Bob1437)      |
 
 
 ## Scrum Board
