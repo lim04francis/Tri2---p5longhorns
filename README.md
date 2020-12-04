@@ -10,7 +10,7 @@
 - Our first project idea is an industry news website. This would give readers the latest information about certain industries, such as Hollywood and the music industry
 - Our second project idea is an virtual art museum. We would show the history of certain genres, such as music, painting, and even gaming.
 
-#### Contributions 
+### Contributions 
 
 | Manuel/Mewe14        | Marc/marchumeau                              |  Francis/lim04francis  | James/Bob1437                                   |
 | ------------- |:-------------                                |:-----    |:----                                            |
@@ -22,9 +22,6 @@
 
 # Log of Changes
 
-### Week 0
-- Added the README file
-- Added necessary information into README
 
 # Raspberry Pi Run Instructions
    **Deployment Process**
