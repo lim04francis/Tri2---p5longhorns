@@ -2,7 +2,7 @@
 
 ### Members and Github Usernames:
 - James Hunt: Bob1437
-- Francis Lim
+- Francis Lim: lim04francis
 - Manuel Villa-Hernandez
 - Marc Humeau: marchumeau
 
