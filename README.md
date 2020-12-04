@@ -26,7 +26,7 @@
 - Added the README file
 - Added necessary information into README
 
-## Raspberry Pi Run Instructions
+# Raspberry Pi Run Instructions
    **Deployment Process**
    
    1 - Obtain git location, login to Github on Pi Browser, copy HTTPS address, Run Git Clone within Terminal, Continue in the Terminal and run Web Server on Pi Browser using Local Host
