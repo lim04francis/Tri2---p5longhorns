@@ -11,7 +11,7 @@
 - Our second project idea is an virtual art museum. We would show the history of certain genres, such as music, painting, and even gaming.
 
 | Test        | Test           | Test  | Test|
-| ------------- |:-------------:| -----:| |
+| ------------- |:-------------:| -----:|----:|
 | 1      | r | 1 | |
 | 2      | c      |   2 | |
 | 3 | a      |    1 | |
