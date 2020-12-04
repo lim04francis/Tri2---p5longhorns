@@ -1,7 +1,7 @@
 # Tri 2 Period 5 Longhorns
 
 ### Members:
-- James Hunt
+- James Hunt:Bob1437
 - Francis Lim
 - Manuel Villa-Hernandez
 - Marc Humeau
