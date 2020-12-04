@@ -14,9 +14,9 @@
 
 | Manuel        | Marc           | Francis  | James|
 | ------------- |:-------------:| -----:|----:|
-| 1      | r | 1 | |
-| 2      | c      |   2 | |
-| 3 | a      |    1 | |
+|       |  |  | |
+|       |       |    | |
+|  |       |     | |
 
 ## Raspberry Pi Run Instructions
    **Deployment Process**
