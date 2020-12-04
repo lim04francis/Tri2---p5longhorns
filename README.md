@@ -12,8 +12,8 @@
 
 #### Contributions 
 
-| Manuel        | Marc/marchumeau                              |  Francis  | James                                           |
-| ------------- |:-------------                                | -----:    |----:                                            |
+| Manuel        | Marc/marchumeau                              |  Francis  | James/Bob1437                                   |
+| ------------- |:-------------                                | -----:    |:----                                            |
 |               |[Contributions](https://github.com/marchumeau)|           |[Contributions](https://github.com/Bob1437)      |
 
 
