@@ -1,5 +1,7 @@
 # Tri 2 Period 5 Longhorns
 
+### [Project Plan and Design](https://docs.google.com/document/d/17C_nAyFtFvbdhyxUsUb1094QCTnxOj8Qtv0jS7bWbzI/edit?usp=sharing)
+
 ### Members:
 - James Hunt
 - Francis Lim
