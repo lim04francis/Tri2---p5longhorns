@@ -16,6 +16,10 @@ def home():
 def cubism():
     return render_template("cubism.html")
 
+@app.route('/photography')
+def photography():
+    return render_template("photography.html")
+
 @app.route('/Movies')
 def Movies():
     return render_template("Movies.html")
