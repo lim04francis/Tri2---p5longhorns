@@ -1,9 +1,167 @@
 <!DOCTYPE html>
 
 <html lang="en">
-<link href="/static/style.css" rel="stylesheet" type="text/css" />
 <meta charset="UTF-8">
 
+<style>
+        ::-webkit-scrollbar{
+        display: none
+    }
+
+    h1 {
+        text-align: center;
+        color: white;
+        text-shadow: 2px 2px 5px white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    h2 {
+        text-align: center;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+    body {
+        background-image: url("https://fsb.zobj.net/crop.php?r=wJZg3jR0yAO6KyoLt0XAKPKyJX_RiobnmQBVikQCdXFfsEhsqQ_eRrfyazrXCxj2Hss9PXgd8CqP_-BvRfqnDJAP5UnEEheQegiXvXHHskgHTDlu36xX3zPc16ACOGx5GHJHvb2CpaPPKPBWuhsg9gHqhRHI6fNjU4NK0JuiFB5PaC1HNIpe0csHAFMYuGWdS8EOK4hZNlnjhfPk");
+        background-repeat: repeat-x,y;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #1a1919;
+    }
+
+    li {
+        float: left;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+    li a:hover {
+        background-color: #111;
+    }
+
+    .container {
+        position: relative;
+         width: 50%;
+         left: 780px;
+         top: 40px
+
+
+    }
+
+    .image {
+         display: block;
+        width: 35%;
+         height: 35%;
+
+
+
+
+    }
+
+    .overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: white;
+        overflow: hidden;
+        width: 0;
+         height: 100%;
+        transition: .5s ease;
+        opacity: 75%;
+
+
+    }
+
+    .container:hover .overlay {
+        width: 35%;
+
+    }
+
+    .text {
+         white-space: nowrap;
+         color: white;
+         font-size: 20px;
+         position: absolute;
+        overflow: hidden;
+        top: 20%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+    }
+
+    .text2 {
+         white-space: nowrap;
+         color: black;
+         font-size: 20px;
+         position: absolute;
+        overflow: hidden;
+        top: 35%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+    }
+    .text3 {
+         white-space: nowrap;
+         color: black;
+         font-size: 20px;
+         position: absolute;
+        overflow: visible;
+        top: 50%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+
+    }
+
+
+    .topnav {
+  background-color: #333;
+  overflow: hidden;
+  z-index:5;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 12px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin:0 ;
+   z-index:25;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+   z-index:25;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #BDB271;
+  color: white;
+  color: #111110;
+   z-index:25;
+}
+
+body {margin:0;}
+</style>
 
 
 
@@ -18,41 +176,40 @@
 
 
 
-
 <h1> Photography </h1>
 
 <div class="container">
     <img src="https://thumbs-prod.si-cdn.com/PHv2f6mSDTyjIibUcNJDzaSA8_I=/fit-in/1600x0/https://public-media.si-cdn.com/filer/74/0c/740cf308-2f7b-4ef8-911f-1c1e71a6e061/npg_93_145_churchill_r.jpg" alt="" class="image">
-        <div class="text">Yousuf Karsh’s iconic portrait – Winston Churchill | 1941</div>
+        <div class="text">Yousuf Karsh’s iconic portrait –<br>Winston Churchill | <br>1941</div>
     </div>
 
 
 <p>&nbsp;</p>
 <div class="container">
     <img src="https://www.digitalphotomentor.com/photography/2018/05/famous-photographers-Cartier-Bresson-1930-man-jumping-puddle.jpg" alt="" class="image">
-        <div class="text">Henri Cartier-Bresson’s famous photo Man Jumping the Puddle | 1930</div>
+        <div class="text">Henri Cartier-Bresson’s famous photo -<br>Man Jumping the Puddle | <br>1930</div>
     </div>
 
 
 <p>&nbsp;</p>
 <div class="container">
     <img src="https://1.api.artsmia.org/800/99534.jpg" alt="" class="image">
-        <div class="text">Margaret Bourke-White’s famous photograph – Gandhi and the Spinning Wheel | 1946</div>
+        <div class="text">Margaret Bourke-White’s famous photograph –<br>Gandhi and the Spinning Wheel | <br>1946</div>
     </div>
 </div>
 
-&nbsp;
+
 <p>&nbsp;</p>
 <div class="container">
     <img src="https://medialectic.files.wordpress.com/2019/10/famous-photographers-lewis-hine-1908-child-cotton-mill-750x422.jpg?w=750" alt="" class="image">
-    <div class="text">Lewis Hine’s famous image – Cotton Mill Girl | 1908</div>
+    <div class="text">Lewis Hine’s famous image –<br>Cotton Mill Girl | <br>1908</div>
 </div>
 
 
 <p>&nbsp;</p>
 <div class="container">
     <img src="https://artsy-media-uploads.s3.amazonaws.com/KUFNTwGcVwoSU3E2LVJArA%2Fcustom-Custom_Size___alfred-eisenstaedt-v-j-day-times-square-new-york-city-1945-printed-later+copy.jpg" alt="" class="image">
-    <div class="text">The Iconic V-J Day in Times Square by Alfred Eisenstaedt | 1945</div>
+    <div class="text">Alfred Eisenstaedt's iconic picture -<br>V-J Day in Times Square| <br>1945</div>
 </div>
 
 
