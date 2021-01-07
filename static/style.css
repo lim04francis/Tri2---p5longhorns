@@ -15,34 +15,16 @@
         font-family: Arial, Helvetica, sans-serif;
 
     }
+
+    h3 {
+        text-align: center;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
     body {
         background-image: url("https://fsb.zobj.net/crop.php?r=wJZg3jR0yAO6KyoLt0XAKPKyJX_RiobnmQBVikQCdXFfsEhsqQ_eRrfyazrXCxj2Hss9PXgd8CqP_-BvRfqnDJAP5UnEEheQegiXvXHHskgHTDlu36xX3zPc16ACOGx5GHJHvb2CpaPPKPBWuhsg9gHqhRHI6fNjU4NK0JuiFB5PaC1HNIpe0csHAFMYuGWdS8EOK4hZNlnjhfPk");
         background-repeat: repeat-x,y;
-    }
-    ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: #1a1919;
-    }
-
-    li {
-        float: left;
-    }
-
-    li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-
-
-    li a:hover {
-        background-color: #111;
     }
 
     .container {
