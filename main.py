@@ -39,6 +39,10 @@ def genresearch():
 def paintingdescriptions():
     return render_template("paintingdescriptions.html")
 
+@app.route('/moviesummaries')
+def moviesummaries():
+    return render_template("moviesummaries.html")
+
 if __name__ == "__main__":
     #runs the application on the repl development server
     app.run(debug=True, port='3000', host='127.0.0.1')
