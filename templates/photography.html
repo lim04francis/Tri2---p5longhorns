@@ -54,7 +54,7 @@
     .container {
         position: relative;
          width: 50%;
-         left: 780px;
+         left: 20px;
          top: 40px
 
 
@@ -97,7 +97,7 @@
          position: absolute;
         overflow: hidden;
         top: 20%;
-         left: 50%;
+         left: 60%;
          transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
     }
@@ -161,6 +161,59 @@
 }
 
 body {margin:0;}
+
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Container needed to position the button. Adjust the width as needed */
+.container {
+  position: relative;
+  width: 50%;
+}
+
+
+
+
+/* Make the image responsive */
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #777;
+  color: black;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container .btn:hover {
+  background-color: black;
+}
+
+
+
 </style>
 
 
@@ -186,12 +239,14 @@ body {margin:0;}
 
 
 <p>&nbsp;</p>
+<p>&nbsp;</p>
 <div class="container">
     <img src="https://www.digitalphotomentor.com/photography/2018/05/famous-photographers-Cartier-Bresson-1930-man-jumping-puddle.jpg" alt="" class="image">
         <div class="text">Henri Cartier-Bresson’s famous photo -<br>Man Jumping the Puddle | <br>1930</div>
     </div>
 
 
+<p>&nbsp;</p>
 <p>&nbsp;</p>
 <div class="container">
     <img src="https://1.api.artsmia.org/800/99534.jpg" alt="" class="image">
@@ -201,6 +256,7 @@ body {margin:0;}
 
 
 <p>&nbsp;</p>
+<p>&nbsp;</p>
 <div class="container">
     <img src="https://medialectic.files.wordpress.com/2019/10/famous-photographers-lewis-hine-1908-child-cotton-mill-750x422.jpg?w=750" alt="" class="image">
     <div class="text">Lewis Hine’s famous image –<br>Cotton Mill Girl | <br>1908</div>
@@ -208,13 +264,29 @@ body {margin:0;}
 
 
 <p>&nbsp;</p>
+<p>&nbsp;</p>
 <div class="container">
     <img src="https://artsy-media-uploads.s3.amazonaws.com/KUFNTwGcVwoSU3E2LVJArA%2Fcustom-Custom_Size___alfred-eisenstaedt-v-j-day-times-square-new-york-city-1945-printed-later+copy.jpg" alt="" class="image">
     <div class="text">Alfred Eisenstaedt's iconic picture -<br>V-J Day in Times Square| <br>1945</div>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
 </div>
 
 
 
-
+<div class="row">
+    <div class="column">
+        <img src="https://wallpaperaccess.com/full/628286.jpg" alt="Snow" style="width:75%">
+        <button class="btn">Click to Reveal Description</button>
+    </div>
+    <div class="column">
+        <img src="https://wallpaperaccess.com/full/1212229.jpg" alt="Forest" style="width:75%">
+        <button class="btn">Click to Reveal Description</button>
+    </div>
+    <div class="column">
+        <img src="https://external-preview.redd.it/ckKIarv_5PIxln8mtpWpEdPv_zx0Ri6weBRg0gr6dYk.jpg?auto=webp&s=97bd6b67a2a0214b3a14965e0b3e9b1ee514b689" alt="Mountains" style="width:75%">
+        <button class="btn">Click to Reveal Description</button>
+    </div>
+</div>
 
 </body>
