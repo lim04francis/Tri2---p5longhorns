@@ -24,7 +24,7 @@
 
 | Ticket 1  | Ticket 2  | Ticket 3 | Ticket 4  |
 | :------------- |:-------------                                |:-----    |:----                                            |
-| [Ticket #1](https://github.com/lim04francis/Tri2---p5longhorns/projects/1#card-52605914)               |[Contributions](https://github.com/marchumeau)|[Contributions](https://github.com/lim04francis)|[Contributions](https://github.com/Bob1437)      |
+| [Marc - Ticket #1](https://github.com/lim04francis/Tri2---p5longhorns/projects/1#card-52605914)               |[Contributions](https://github.com/marchumeau)|[Contributions](https://github.com/lim04francis)|[Contributions](https://github.com/Bob1437)      |
 
 # Log of Changes
 [Log](https://github.com/lim04francis/Tri2---p5longhorns/projects/2)
