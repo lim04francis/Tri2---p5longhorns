@@ -1,5 +1,13 @@
 # Tri 2 Period 5 Longhorns
 
+## Week 4 Grading 
+### Tickets
+| Ticket 1  | Ticket 2  | Ticket 3 | Ticket 4  |
+| :------------- |:-------------                                |:-----    |:----                                            |
+| [Marc - Ticket #1](https://github.com/lim04francis/Tri2---p5longhorns/projects/1#card-52605914)               |[Francis - Ticket #2](https://github.com/lim04francis/Tri2---p5longhorns/projects/1#card-52606518)|[Contributions](https://github.com/lim04francis)|[Contributions](https://github.com/Bob1437)      |
+| [Marc - Ticket #1](https://github.com/lim04francis/Tri2---p5longhorns/projects/1#card-52605914)               |[Contributions](https://github.com/marchumeau)|[Contributions](https://github.com/lim04francis)|[Contributions](https://github.com/Bob1437)      |
+
+
 ### [Project Plan and Design](https://docs.google.com/document/d/17C_nAyFtFvbdhyxUsUb1094QCTnxOj8Qtv0jS7bWbzI/edit?usp=sharing)
 
 ### Members:
@@ -21,11 +29,6 @@
 ## Scrum Board
 [Period 5 Longhorns](https://github.com/lim04francis/Tri2---p5longhorns/projects/1)
 
-### Week 4 Grading Tickets
-| Ticket 1  | Ticket 2  | Ticket 3 | Ticket 4  |
-| :------------- |:-------------                                |:-----    |:----                                            |
-| [Marc - Ticket #1](https://github.com/lim04francis/Tri2---p5longhorns/projects/1#card-52605914)               |[Francis - Ticket #2](https://github.com/lim04francis/Tri2---p5longhorns/projects/1#card-52606518)|[Contributions](https://github.com/lim04francis)|[Manuel - Ticket #3](https://github.com/Bob1437)      |
-| [Marc - Ticket #1](https://github.com/lim04francis/Tri2---p5longhorns/projects/1#card-52605914)               |[Contributions](https://github.com/marchumeau)|[Contributions](https://github.com/lim04francis)|[Contributions](https://github.com/Bob1437)      |
 
 # Log of Changes
 [Log of Weekly Changes](https://github.com/lim04francis/Tri2---p5longhorns/projects/2)
