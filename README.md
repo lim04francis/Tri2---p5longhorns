@@ -22,7 +22,7 @@
 ## Scrum Board
 [Period 5 Longhorns](https://github.com/lim04francis/Tri2---p5longhorns/projects/1)
 
-| Manuel/Mewe14        | Marc/marchumeau                              |  Francis/lim04francis  | James/Bob1437                                   |
+| Ticket 1  | Ticket 2  | Ticket 3 | Ticket 4  |
 | ------------- |:-------------                                |:-----    |:----                                            |
 | [Contributions](https://github.com/Mewe14)               |[Contributions](https://github.com/marchumeau)|[Contributions](https://github.com/lim04francis)|[Contributions](https://github.com/Bob1437)      |
 
