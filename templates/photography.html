@@ -178,6 +178,15 @@ body {margin:0;}
 }
 
 
+#myDIV {
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: #333;
+  color: white;
+  margin-top: 20px;
+}
+
 </style>
 
 
@@ -198,8 +207,11 @@ body {margin:0;}
 
 <div class="container">
     <img src="https://thumbs-prod.si-cdn.com/PHv2f6mSDTyjIibUcNJDzaSA8_I=/fit-in/1600x0/https://public-media.si-cdn.com/filer/74/0c/740cf308-2f7b-4ef8-911f-1c1e71a6e061/npg_93_145_churchill_r.jpg" alt="" class="image">
-    <button class="btn">Click to Reveal Description</button>
-        <div class="text">Yousuf Karsh’s iconic portrait –<br>Winston Churchill | <br>1941</div>
+
+    <button onclick="myFunction()">Click to reveal Description</button>
+    <div id="myDIV">
+        Yousuf Karsh’s iconic portrait –<br>Winston Churchill | <br>1941
+
     </div>
 
 
@@ -238,5 +250,15 @@ body {margin:0;}
 </div>
 
 
+<script>
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
 
 </body>
