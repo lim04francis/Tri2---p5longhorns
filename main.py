@@ -28,12 +28,27 @@ def Movies():
 def Music():
     return render_template('Music.html', genremain="")
 
+@app.route('/musicclassical')
+def MusicClassical():
+    return render_template('MusicClassical.html', genremain='')
+
+@app.route('/musicjazz')
+def MusicJazz():
+    return render_template('MusicJazz.html')
+
 @app.route("/Genresearch1", methods=["GET", "POST"])
 def genresearch():
     if request.method == "POST":
-        form= request.form
+        form = request.form
         Genre1 = form['MusicG1']
-        return render_template('/music.html', genremain=Genre1)
+
+        if Genre1.strip() == "Classical" or Genre1.strip() == "classical" or Genre1.strip() == "Classical Music" or Genre1.strip() == "classical music":
+            return render_template('MusicClassical.html', genremain='Classical Music:')
+        elif Genre1.strip() == 'Jazz' or Genre1.strip() == 'jazz' or Genre1.strip() == 'Jazz Music' or Genre1.strip() == 'jazz music':
+            return render_template('MusicJazz.html', genremain='Jazz Music:')
+
+        return render_template('Music.html', genremain=Genre1)
+
 
 @app.route('/paintingdescriptions')
 def paintingdescriptions():
