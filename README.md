@@ -5,7 +5,7 @@
 | Ticket 1  | Ticket 2  | Ticket 3 | Ticket 4  |
 | :------------- |:-------------                                |:-----    |:----                                            |
 | [Marc - Ticket #1](https://github.com/lim04francis/Tri2---p5longhorns/projects/1#card-52605914)               |[Francis - Ticket #2](https://github.com/lim04francis/Tri2---p5longhorns/projects/1#card-52606518)|[Manuel - Ticket #3](https://github.com/lim04francis/Tri2---p5longhorns/projects/1#card-52607517)|[James - Ticket #4](https://github.com/lim04francis/Tri2---p5longhorns/projects/1#card-52772616)      |
-| [Marc - Ticket #1](https://github.com/lim04francis/Tri2---p5longhorns/projects/1#card-52605914)               |[Contributions](https://github.com/marchumeau)|[Contributions](https://github.com/lim04francis)|[Contributions](https://github.com/Bob1437)      |
+| [Marc - Ticket #1](https://github.com/lim04francis/Tri2---p5longhorns/projects/1#card-52605914)               |[Set up button in html](https://github.com/lim04francis/Tri2---p5longhorns/blob/fb795bfdf542c032f86516f949e20d80e565c4ef/templates/photography.html#L211)|[Contributions](https://github.com/lim04francis)|[Contributions](https://github.com/Bob1437)      |
 
 
 ### [Project Plan and Design](https://docs.google.com/document/d/17C_nAyFtFvbdhyxUsUb1094QCTnxOj8Qtv0jS7bWbzI/edit?usp=sharing)
