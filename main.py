@@ -20,6 +20,10 @@ def cubism():
 def photography():
     return render_template("photography.html")
 
+@app.route('/quotesapi')
+def quotesapi():
+    return render_template("quotesapi.html")
+
 @app.route('/Movies')
 def Movies():
     return render_template("Movies.html")

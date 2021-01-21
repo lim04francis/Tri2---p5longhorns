@@ -163,20 +163,6 @@
 body {margin:0;}
 
 
-/* Three image containers (use 25% for four, and 50% for two, etc) */
-.column {
-  float: left;
-  width: 25%;
-  padding: 5px;
-}
-
-/* Clear floats after image containers */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
 
 #myDIV {
   width: 100%;
@@ -198,6 +184,7 @@ body {margin:0;}
     <a href="/Movies">Movies</a>
     <a class="active" href="/photography">Photography</a>
     <a href="/music">Music</a>
+    <a href="/quotesapi">Quotes API</a>
 </div>
 
 
@@ -211,7 +198,6 @@ body {margin:0;}
     <button onclick="myFunction()">Click to reveal Description</button>
     <div id="myDIV">
         Yousuf Karsh’s iconic portrait –<br>Winston Churchill | <br>1941
-
     </div>
 
 
@@ -231,25 +217,33 @@ body {margin:0;}
 <p>&nbsp;</p>
 <div class="container">
     <img src="https://1.api.artsmia.org/800/99534.jpg" alt="" class="image">
-        <div class="text">Margaret Bourke-White’s famous photograph –<br>Gandhi and the Spinning Wheel | <br>1946</div>
+
+    <button onclick="myFunction()">Click to reveal Description</button>
+    <div id="myDIV">
+    Margaret Bourke-White’s famous photograph –<br>Gandhi and the Spinning Wheel | <br>1946
     </div>
-</div>
 
 
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <div class="container">
     <img src="https://medialectic.files.wordpress.com/2019/10/famous-photographers-lewis-hine-1908-child-cotton-mill-750x422.jpg?w=750" alt="" class="image">
-    <div class="text">Lewis Hine’s famous image –<br>Cotton Mill Girl | <br>1908</div>
-</div>
+
+    <button onclick="myFunction()">Click to reveal Description</button>
+    <div id="myDIV">
+    Lewis Hine’s famous image –<br>Cotton Mill Girl | <br>1908
+    </div>
 
 
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <div class="container">
     <img src="https://artsy-media-uploads.s3.amazonaws.com/KUFNTwGcVwoSU3E2LVJArA%2Fcustom-Custom_Size___alfred-eisenstaedt-v-j-day-times-square-new-york-city-1945-printed-later+copy.jpg" alt="" class="image">
-    <div class="text">Alfred Eisenstaedt's iconic picture -<br>V-J Day in Times Square| <br>1945</div>
-</div>
+
+    <button onclick="myFunction()">Click to reveal Description</button>
+    <div id="myDIV">
+    Alfred Eisenstaedt's iconic picture -<br>V-J Day in Times Square| <br>1945
+    </div>
 
 
 <script>
