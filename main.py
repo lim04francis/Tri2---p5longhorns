@@ -1,9 +1,15 @@
 
 
 # https://flask.palletsprojects.com/en/1.1.x/api/
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, Response
+from werkzeug.utils import secure_filename
+from db import db_init, db
+from models import Img
 #create a Flask instance
 app = Flask(__name__)
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///img.db'
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+db_init(app)
 
 #connects default URL of server to a python function
 @app.route('/')
@@ -65,6 +71,34 @@ def moviesummaries():
 @app.route('/actionmovies')
 def actionmovies():
     return render_template("actionmovies.html")
+
+@app.route('/img')
+def hello_world():
+    return render_template("index.html")
+
+@app.route('/upload', methods=['GET','POST'])
+def upload():
+    pic = request.files['pic']
+
+    if not pic:
+        return 'No pic uploaded', 400
+
+    filename = secure_filename(pic.filename)
+    mimetype = pic.mimetype
+
+    img = Img(img=pic.read(), mimetype=mimetype, name=filename)
+    db.session.add(img)
+    db.session.commit()
+
+    return 'Img has been uploaded!', 200
+
+@app.route('/<int:id>')
+def get_img(id):
+    img = Img.query.filter_by(id=id).first()
+    if not img:
+        return 'No img with that id', 200
+
+    return Response(img.img, mimetype=img.mimetype)
 
 if __name__ == "__main__":
     #runs the application on the repl development server
