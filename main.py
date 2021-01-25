@@ -56,6 +56,8 @@ def genresearch():
             return render_template('MusicClassical.html', genremain='Classical Music:')
         elif Genre1.strip() == 'Jazz' or Genre1.strip() == 'jazz' or Genre1.strip() == 'Jazz Music' or Genre1.strip() == 'jazz music':
             return render_template('MusicJazz.html', genremain='Jazz Music:')
+        elif Genre1.strip() == "EasterEgg" or Genre1.strip() == "easteregg" or Genre1.strip() == "Easteregg":
+            return render_template('EasterEgg.html', genremain="EasterEgg!")
 
         return render_template('Music.html', genremain=Genre1)
 
