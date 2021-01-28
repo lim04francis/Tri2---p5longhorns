@@ -1,6 +1,8 @@
 # Tri 2 Period 5 Longhorns
 
 
+##[LINK TO EASTER EGG]( )
+
 
 ### [Project Plan and Design](https://docs.google.com/document/d/17C_nAyFtFvbdhyxUsUb1094QCTnxOj8Qtv0jS7bWbzI/edit?usp=sharing)
 
