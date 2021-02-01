@@ -1,10 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+<style>
+    ::-webkit-scrollbar{
+    display: none
+    }
+
+    h1 {
+        text-align: center;
+        color: white;
+        font-family: Arial, Museo Sans, sans-serif;
+    }
+
+    h2 {
+        text-align: center;
+        color: white;
+        font-family: Arial, Museo Sans, sans-serif;
+    }
+
+    h3 {
+        text-align: center;
+        color: white;
+        font-family: Arial, Museo Sans, sans-serif;
+    }
+
+    @font-face {
+        font-family: "My Custom Font";
+         src: url(http://www.example.org/mycustomfont.ttf) format("truetype");
+    }
+
+    h1.customfont {
+         font-family: "My Custom Font", Verdana, Tahoma;
+    }
+
+    h2.customfont {
+         font-family: "My Custom Font", Verdana, Tahoma;
+    }
+
+    h3.customfont {
+         font-family: "My Custom Font", Verdana, Tahoma;
+    }
+</style>
+
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="/static/home.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-<p>Easter Egg</p>
+
+<div class="topnav">
+    <a class="active" href="/">Easter Egg</a>
+    <a href="/">Home</a>
+    <a href="">James H</a>
+    <a  href="">Manuel V</a>
+    <a href="">Francis L</a>
+    <a href="">Marc H</a>
+</div>
+
+<h1 class="customfont"> Easter Egg</h1>
+<h2 class="customfont"> Welcome to our Easter Egg page! We will have our LinkedIn profiles and future TPT practice on this page.</h2>
+<h3 class="customfont"> Click on the buttons on the navbar to visit out LinkedIn profiles </h3>
+<div class="waveWrapper waveAnimation">
+
+    <div class="waveWrapperInner bgMiddle">
+        <div class="wave waveMiddle" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-mid.png')"></div>
+    </div>
+    <div class="waveWrapperInner bgBottom">
+        <div class="wave waveBottom" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-bot.png')"></div>
+    </div>
+</div>
+
 </body>
 </html>
