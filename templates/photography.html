@@ -165,7 +165,7 @@ body {margin:0;}
 
 
 #myDIV {
-  width: 100%;
+  width: 60%;
   padding: 50px 0;
   text-align: center;
   background-color: #333;
@@ -173,6 +173,38 @@ body {margin:0;}
   margin-top: 20px;
 }
 
+#myDIV1 {
+  width: 60%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: #333;
+  color: white;
+  margin-top: 20px;
+}
+#myDIV2 {
+  width: 60%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: #333;
+  color: white;
+  margin-top: 20px;
+}
+#myDIV3 {
+  width: 60%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: #333;
+  color: white;
+  margin-top: 20px;
+}
+#myDIV4 {
+  width: 60%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: #333;
+  color: white;
+  margin-top: 20px;
+}
 </style>
 
 
@@ -207,8 +239,8 @@ body {margin:0;}
 
     <img src="https://www.digitalphotomentor.com/photography/2018/05/famous-photographers-Cartier-Bresson-1930-man-jumping-puddle.jpg" alt="" class="image">
 
-    <button onclick="myFunction()">Click to reveal Description</button>
-    <div id="myDIV">
+    <button onclick="myFunction1()">Click to reveal Description</button>
+    <div id="myDIV1">
         Henri Cartier-Bresson’s famous photo -<br>Man Jumping the Puddle | <br>1930
     </div>
 
@@ -218,8 +250,8 @@ body {margin:0;}
 
     <img src="https://1.api.artsmia.org/800/99534.jpg" alt="" class="image">
 
-    <button onclick="myFunction()">Click to reveal Description</button>
-    <div id="myDIV">
+    <button onclick="myFunction2()">Click to reveal Description</button>
+    <div id="myDIV2">
     Margaret Bourke-White’s famous photograph –<br>Gandhi and the Spinning Wheel | <br>1946
     </div>
 
@@ -229,8 +261,8 @@ body {margin:0;}
 
     <img src="https://medialectic.files.wordpress.com/2019/10/famous-photographers-lewis-hine-1908-child-cotton-mill-750x422.jpg?w=750" alt="" class="image">
 
-    <button onclick="myFunction()">Click to reveal Description</button>
-    <div id="myDIV">
+    <button onclick="myFunction3()">Click to reveal Description</button>
+    <div id="myDIV3">
     Lewis Hine’s famous image –<br>Cotton Mill Girl | <br>1908
     </div>
 
@@ -240,8 +272,8 @@ body {margin:0;}
 
     <img src="https://artsy-media-uploads.s3.amazonaws.com/KUFNTwGcVwoSU3E2LVJArA%2Fcustom-Custom_Size___alfred-eisenstaedt-v-j-day-times-square-new-york-city-1945-printed-later+copy.jpg" alt="" class="image">
 
-    <button onclick="myFunction()">Click to reveal Description</button>
-    <div id="myDIV">
+    <button onclick="myFunction4()">Click to reveal Description</button>
+    <div id="myDIV4">
     Alfred Eisenstaedt's iconic picture -<br>V-J Day in Times Square| <br>1945
     </div>
 
@@ -249,6 +281,38 @@ body {margin:0;}
 <script>
 function myFunction() {
   var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function myFunction1() {
+  var x = document.getElementById("myDIV1");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function myFunction2() {
+  var x = document.getElementById("myDIV2");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function myFunction3() {
+  var x = document.getElementById("myDIV3");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function myFunction4() {
+  var x = document.getElementById("myDIV4");
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
