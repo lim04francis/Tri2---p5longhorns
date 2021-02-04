@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="/static/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+<div class="topnav">
+    <a href="/">Home</a>
+    <a href="/cubism">Paintings</a>
+    <a href="/Movies">Movies</a>
+    <a href="/photography">Photography</a>
+    <a class = "active" href="/music">Music</a>
+</div>
+
+<h1>Funk Music</h1>
+
+
+<form method="post">
+    <p style="color:white;" >Genre Search</p>
+    <p><input type="text" name="MusicG1"></p>
+    <p><input type="submit" value="submit" formaction="/Genresearch1"> </p>
+
+
+</form>
+
+<p style="color:white;" > {{genremain}} </p>
+
+<p style="color:white;">Jungle Boogie - Kool & The Gang</p>
+<audio controls><source src="/static/Jungle Boogie.mp3" type="audio/mpeg"></audio>
+
+</body>
+</html>

@@ -53,11 +53,38 @@ def genresearch():
         Genre1 = form['MusicG1']
 
         if Genre1.strip() == "Classical" or Genre1.strip() == "classical" or Genre1.strip() == "Classical Music" or Genre1.strip() == "classical music":
-            return render_template('MusicClassical.html', genremain='Classical Music:')
+            return render_template('/Music/MusicClassical.html', genremain='Classical Music:')
         elif Genre1.strip() == 'Jazz' or Genre1.strip() == 'jazz' or Genre1.strip() == 'Jazz Music' or Genre1.strip() == 'jazz music':
-            return render_template('MusicJazz.html', genremain='Jazz Music:')
+            return render_template('/Music/MusicJazz.html', genremain='Jazz Music:')
         elif Genre1.strip() == "EasterEgg" or Genre1.strip() == "easteregg" or Genre1.strip() == "Easteregg":
             return render_template('EasterEgg.html', genremain="EasterEgg!")
+        elif Genre1.strip() == "Rock" or Genre1.strip() == 'rock' or Genre1.strip() == 'rock music' or Genre1.strip() == 'Rock Music':
+            return render_template('/Music/MusicRock.html', genremain="Rock Music:")
+        elif Genre1.strip() == 'Pop' or Genre1.strip() == 'pop' or Genre1.strip() =='Pop Music' or Genre1.strip() == 'pop music':
+            return render_template('/Music/MusicPop.html', genremain='Pop Music:')
+        elif Genre1.strip() == 'Hip Hop' or Genre1.strip() == 'hip hop' or Genre1.strip() == 'Hip hop' or Genre1.strip() == 'HipHop' or Genre1.strip() == 'hiphop':
+            return render_template('/Music/MusicHiphop.html', genremain='Hip Hop Music:')
+        elif Genre1.strip() == 'Punk' or Genre1.strip() == 'punk' or Genre1.strip() == 'Punk Rock' or Genre1.strip() == 'punk rock' or Genre1.strip() == 'Punk rock':
+            return render_template('/Music/MusicPunk.html', genremain='Punk Music:')
+        elif Genre1.strip() == 'Disco' or Genre1.strip() == 'disco' or Genre1.strip() == 'Disco Music' or Genre1.strip() == 'disco music':
+            return render_template('/Music/MusicDisco.html', genremain='Disco Music:')
+        elif Genre1.strip() == 'Folk' or Genre1.strip() == 'folk' or Genre1.strip() == 'Folk Music' or Genre1.strip() == 'folk music' or Genre1.strip() == 'Folk music' or Genre1.strip() == 'folk Music':
+            return render_template('/Music/MusicFolk.html', genremain='Folk Music: ')
+        elif Genre1.strip() == 'Soul' or Genre1.strip() == 'soul' or Genre1.strip() == 'Soul Music' or Genre1.strip() == 'soul music' or Genre1.strip() == 'Soul music' or Genre1.strip() == 'soul Music':
+            return render_template('/Music/MusicSoul.html', genremain='Soul Music:')
+        elif Genre1.strip() == 'Blues' or Genre1.strip() == 'blues' or Genre1.strip() == 'Blues Music' or Genre1.strip() == 'blues music':
+            return render_template('/Music/MusicBlues.html', genremain='Blues Music: ')
+        elif Genre1.strip() == 'Reggae' or Genre1.strip() == 'reggae' or Genre1.strip() == 'Reggae Music' or Genre1.strip() == 'reggae music':
+            return render_template('/Music/MusicReggae.html', genremain='Reggae Music: ')
+        elif Genre1.strip() == 'Funk' or Genre1.strip() == 'funk' or Genre1.strip() == 'Funk Music' or Genre1.strip() == 'funk music':
+            return render_template('/Music/MusicFunk.html', genremain='Funk Music:')
+        elif Genre1.strip() == 'Country' or Genre1.strip() == 'country' or Genre1.strip() == 'Country Music' or Genre1.strip() == 'country music':
+            return render_template('/Music/MusicCountry.html', genremain='Country Music:')
+        elif Genre1.strip() == 'Techno' or Genre1.strip() == 'techno' or Genre1.strip() == 'tech' or Genre1.strip() == 'Tech' or Genre1.strip() == 'Techno Music' or Genre1.strip() == 'techno music' or Genre1.strip() == 'tech music' or Genre1.strip() == 'Tech Music':
+            return render_template('/Music/MusicTechno.html', genremain='Techno Music: ')
+        else:
+            return render_template('Music.html', genremain='No Such Genre in database')
+
 
         return render_template('Music.html', genremain=Genre1)
 
