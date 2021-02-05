@@ -105,6 +105,10 @@ def actionmovies():
 def hello_world():
     return render_template("index.html")
 
+@app.route('/marc')
+def marclinkedin():
+    return render_template("marclinkedin.html")
+
 @app.route('/upload', methods=['GET','POST'])
 def upload():
     pic = request.files['pic']
@@ -121,6 +125,7 @@ def upload():
 
     return 'Img has been uploaded!', 200
 
+
 @app.route('/<int:id>')
 def get_img(id):
     img = Img.query.filter_by(id=id).first()
@@ -128,6 +133,7 @@ def get_img(id):
         return 'No img with that id', 200
 
     return Response(img.img, mimetype=img.mimetype)
+
 
 if __name__ == "__main__":
     #runs the application on the repl development server
