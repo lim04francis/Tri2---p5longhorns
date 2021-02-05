@@ -1,7 +1,7 @@
 # Tri 2 Period 5 Longhorns
 
 
-#### [LINK TO EASTER EGG]( )
+#### [LINK TO EASTER EGG](http://76.176.107.1/marc)
 
 ## Model Week #2 Grading 
 ### Tickets
