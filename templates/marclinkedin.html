@@ -6,7 +6,7 @@
     }
 
     body {
-        background-color: #09090a;
+        margin: 0;
     }
 
 
@@ -16,6 +16,7 @@
 
     h1 {
         color: white;
+        text-align: center;
     }
 
     h3.customfont {
@@ -24,12 +25,19 @@
 
     h3 {
         color: white;
+        margin-left: 30px;
+    }
+
+    img {
+        margin-left: 30px;
     }
 
     p {
         color: white;
         margin-right: 55%;
+        margin-left: 30px;
     }
+
 
     p.customfont {
          font-family: "My Custom Font", Verdana, Tahoma;
@@ -38,6 +46,46 @@
     a  {
         color: white;
     }
+
+    html {
+         height:100%;
+    }
+
+
+
+    .bg {
+        animation:slide 3s ease-in-out infinite alternate;
+        background-image: linear-gradient(-60deg, #000000 50%, #494949 50%);
+        bottom:0;
+        left:-50%;
+        opacity:.5;
+        position:fixed;
+        right:-50%;
+        top:0;
+        z-index:-1;
+    }
+
+    .bg2 {
+        animation-direction:alternate-reverse;
+        animation-duration:4s;
+    }
+
+    .bg3 {
+        animation-duration:5s;
+    }
+
+    h1 {
+         font-family:monospace;
+    }
+
+    @keyframes slide {
+    0% {
+        transform:translateX(-25%);
+    }
+    100% {
+        transform:translateX(25%);
+    }
+
 </style>
 
 <head>
@@ -55,6 +103,10 @@
     <a href="">Francis L</a>
     <a href="">Marc H</a>
 </div>
+
+<div class="bg"></div>
+<div class="bg bg2"></div>
+<div class="bg bg3"></div>
 
 <h1 class="customfont"> BinkedIn</h1>
 <h3> Marc Humeau </h3>
