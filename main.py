@@ -34,6 +34,10 @@ def quotesapi():
 def Movies():
     return render_template("Movies.html")
 
+@app.route('/login')
+def login():
+    return render_template("login.html")
+
 @app.route('/music')
 def Music():
     return render_template('Music.html', genremain="")
@@ -101,6 +105,10 @@ def moviesummaries():
 def actionmovies():
     return render_template("actionmovies.html")
 
+@app.route('/Privatepage')
+def Privatepage():
+    return render_template("Privatepage.html")
+
 @app.route('/img')
 def hello_world():
     return render_template("index.html")
@@ -138,3 +146,5 @@ def get_img(id):
 if __name__ == "__main__":
     #runs the application on the repl development server
     app.run(debug=True, port='3000', host='127.0.0.1')
+
+
