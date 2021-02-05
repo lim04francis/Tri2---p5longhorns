@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    ::-webkit-scrollbar{
+        display: none
+    }
+
+    body {
+        margin: 0;
+    }
+
+
+    h1.customfont {
+         font-family: "My Custom Font", Verdana, Tahoma;
+    }
+
+    h1 {
+        color: white;
+        text-align: center;
+    }
+
+    h3.customfont {
+         font-family: "My Custom Font", Verdana, Tahoma;
+    }
+
+    h3 {
+        color: white;
+        margin-left: 30px;
+    }
+
+    img {
+        margin-left: 30px;
+    }
+
+    p {
+        color: white;
+        margin-right: 55%;
+        margin-left: 30px;
+    }
+
+
+    p.customfont {
+         font-family: "My Custom Font", Verdana, Tahoma;
+    }
+
+    a  {
+        color: white;
+    }
+
+    html {
+         height:100%;
+    }
+
+
+
+    .bg {
+        animation:slide 3s ease-in-out infinite alternate;
+        background-image: linear-gradient(-60deg, #000000 50%, #494949 50%);
+        bottom:0;
+        left:-50%;
+        opacity:.5;
+        position:fixed;
+        right:-50%;
+        top:0;
+        z-index:-1;
+    }
+
+    .bg2 {
+        animation-direction:alternate-reverse;
+        animation-duration:4s;
+    }
+
+    .bg3 {
+        animation-duration:5s;
+    }
+
+    h1 {
+         font-family:monospace;
+    }
+
+    @keyframes slide {
+    0% {
+        transform:translateX(-25%);
+    }
+    100% {
+        transform:translateX(25%);
+    }
+
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="/static/home.css" rel="stylesheet" type="text/css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+<div class="topnav">
+    <a href="/">Easter Egg</a>
+    <a href="/">Home</a>
+    <a class="active" href="/james">James H</a>
+    <a href="">Manuel V</a>
+    <a href="">Francis L</a>
+    <a href="/marc">Marc H</a>
+</div>
+
+<div class="bg"></div>
+<div class="bg bg2"></div>
+<div class="bg bg3"></div>
+
+<h1 class="customfont"> BinkedIn</h1>
+
+<h3> James Hunt </h3>
+<img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" width="150" height="150">
+<i class="fas fa-heart" style="color:white;"></i>
+<a href="https://github.com/Bob1437">Github</a>
+<p class="customfont">Who am I in computer science? </p>
+<p class="customfont">I am a student currently enrolled in a class oriented around web design. My personal goal is to understand the way the internet works better.
+    I wish to learn this as the internet is very prominent in society nowadays. I have a solid understanding of Python, html/css, and developing webservers via Flask, Jinja,
+    and multiple other modules. The next subject I want to learn is how to utilize sessions and create user specific logins as well as creating databases
+    to store data that can be used.
+
+
+</p>
+
+</body>
+</html>

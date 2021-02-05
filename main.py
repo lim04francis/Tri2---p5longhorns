@@ -93,6 +93,10 @@ def genresearch():
         return render_template('Music.html', genremain=Genre1)
 
 
+@app.route('/easteregg/')
+def easteregg():
+    return render_template('EasterEgg.html', genremain="EasterEgg!")
+
 @app.route('/paintingdescriptions')
 def paintingdescriptions():
     return render_template("paintingdescriptions.html")
@@ -116,6 +120,10 @@ def hello_world():
 @app.route('/marc')
 def marclinkedin():
     return render_template("marclinkedin.html")
+
+@app.route('/james')
+def jameslinkedin():
+    return render_template("jameslikendin.html")
 
 @app.route('/upload', methods=['GET','POST'])
 def upload():
