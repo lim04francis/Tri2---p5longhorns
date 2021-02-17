@@ -5,6 +5,7 @@ from flask import Flask, render_template, request, Response
 from werkzeug.utils import secure_filename
 from db import db_init, db
 from models import Img
+from paintings import painting_list
 #create a Flask instance
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///img.db'
@@ -100,6 +101,10 @@ def easteregg():
 @app.route('/paintingdescriptions')
 def paintingdescriptions():
     return render_template("paintingdescriptions.html")
+
+@app.route('/paintinglist')
+def paintinglist():
+    return render_template("paintinglist.html", paintings=painting_list)
 
 @app.route('/moviesummaries')
 def moviesummaries():

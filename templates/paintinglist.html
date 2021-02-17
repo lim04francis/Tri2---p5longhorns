@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<meta charset="UTF-8">
+<style>
+        ::-webkit-scrollbar{
+        display: none
+    }
+    a:link {
+        color: black;
+    }
+    a:visited {
+        color: black;
+    }
+
+    h1 {
+        text-align: center;
+        color: white;
+        text-shadow: 2px 2px 5px white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    h2 {
+        text-align: center;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    h3 {
+        text-align: center;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 50%;
+        margin: auto;
+
+    .center-block {
+         display: block;
+        margin-right:auto;
+         margin-left:auto;
+    }
+
+
+    }
+    body {
+        background-image: url("https://fsb.zobj.net/crop.php?r=wJZg3jR0yAO6KyoLt0XAKPKyJX_RiobnmQBVikQCdXFfsEhsqQ_eRrfyazrXCxj2Hss9PXgd8CqP_-BvRfqnDJAP5UnEEheQegiXvXHHskgHTDlu36xX3zPc16ACOGx5GHJHvb2CpaPPKPBWuhsg9gHqhRHI6fNjU4NK0JuiFB5PaC1HNIpe0csHAFMYuGWdS8EOK4hZNlnjhfPk");
+        background-repeat: repeat-x,y;
+    }
+
+
+
+    .topnav {
+         background-color: #333;
+        overflow: hidden;
+        z-index:5;
+    }
+
+/* Style the links inside the navigation bar */
+    .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 12px 16px;
+        text-decoration: none;
+        font-size: 17px;
+         margin:0 ;
+        z-index:25;
+    }
+
+/* Change the color of links on hover */
+    .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+        z-index:25;
+}
+
+/* Add a color to the active/current link */
+    .topnav a.active {
+        background-color: #BDB271;
+        color: white;
+        color: #111110;
+        z-index:25;
+    }
+
+    body {margin:0;}
+
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 25%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    td, th {
+        border: 1px solid #000000;
+        text-align: left;
+        padding: 8px;
+        color: white;
+    }
+
+    tr:nth-child {
+        background-color: #000000;
+    }
+
+</style>
+<body>
+
+<div class="topnav">
+    <a href="/">Home</a>
+    <a class="active" href="/cubism">Paintings</a>
+    <a  href="/Movies">Movies</a>
+    <a href="/photography">Photography</a>
+    <a href="/music">Music</a>
+</div>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<table>
+    <tr>
+        <th> Name </th>
+        <th> Date </th>
+        <th> Creator </th>
+        <th> Genre </th>
+    </tr>
+    {% for painting in paintings %}
+    <tr>
+        <td>{{painting.name}}</td>
+        <td>{{painting.date}}</td>
+        <td>{{painting.painter}}</td>
+        <td>{{painting.genre}}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+
+</body>
+</html>
