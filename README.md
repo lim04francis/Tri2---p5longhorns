@@ -3,6 +3,8 @@
 
 #### [LINK TO EASTER EGG](http://76.176.107.1/marc)
 
+###[AP CSP Requirements Reflection Document](https://docs.google.com/document/d/1VXpFwf4a9hbRfqNfUkyfq4cgYS_rohieEd5pFr5qums/edit?usp=sharing)
+
 ### Crossover Suggestions
 - Change the navigation bar so that the buttons are the same for each page (as there are currently different buttons on some of the pages), to prevent confusion 
 - Maybe try thinking about using jinja and CSS to make it a bit easier on the formatting and make website navigation easier for the user
