@@ -25,7 +25,7 @@ def cubism():
 
 @app.route('/photography')
 def photography():
-    posts = [{'title': 'Photography', 'author': 'Francis Lim', 'period': '5 Longhorns'}]
+    posts = [{'title': 'Photography', 'author': 'Francis Lim', 'summary': 'Iconic Photos in History', 'period': '5 Longhorns'}]
     return render_template("photography.html", posts=posts)
 
 @app.route('/quotesapi')
