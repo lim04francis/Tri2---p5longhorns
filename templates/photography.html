@@ -240,9 +240,14 @@ body {margin:0;}
 </div>
 
 
+<div style="background-color:#BDB271;padding:15px;">
+    {% for post in posts %}
+    <h1>{{post.title}}</h1>
+    <h2>{{post.summary}}</h2>
+    <h4>Creator: {{post.author}}</h4>
+    {% endfor %}
+</div>
 
-
-<h1> Photography </h1>
 
 
     <div class="row">
