@@ -13,6 +13,5 @@ p9 = {"name":"The Lovers", "date": 1928, "painter":"Rene Margritte", "genre":"Su
 p10 = {"name":"Golconda", "date": 1953, "painter":"Rene Margritte", "genre":"Surrealism"}
 
 painting_list = [p1, p2, p3, p4, p5, p6, p7, p8, p9, p10]
-for painting in painting_list:
-    print(painting["name"] + "|" + (painting["painter"]) + "|" + str(painting["date"]) + "|" + painting["genre"])
+
 
