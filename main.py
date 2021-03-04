@@ -131,6 +131,10 @@ def marclinkedin():
 def jameslinkedin():
     return render_template("jameslikendin.html")
 
+@app.route('/francis')
+def francislinkedin():
+    return render_template("francislinkedin.html")
+
 @app.route('/upload', methods=['GET','POST'])
 def upload():
     pic = request.files['pic']
