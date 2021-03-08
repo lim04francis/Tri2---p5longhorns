@@ -5,20 +5,6 @@
 
 
 ## Technicals
-### Back End
-| |
-| :------------- |:-------------                                |:-----    |:----                                            |
-| [Marc - Ticket #1](https://github.com/lim04francis/Tri2---p5longhorns/projects/1#card-52605914)               |[Francis - Ticket #2](https://github.com/lim04francis/Tri2---p5longhorns/projects/1#card-52606518)[, Running Photography Subpage](http://76.176.107.1/photography)|[Manuel - Ticket #3](https://github.com/lim04francis/Tri2---p5longhorns/projects/1#card-52607517)|[James - Ticket #4](https://github.com/lim04francis/Tri2---p5longhorns/projects/1#card-52772616)      |
-| [Added more paintings,](https://github.com/lim04francis/Tri2---p5longhorns/blob/65b20709bcfd9f6603c30a3241d2870623146cca/templates/cubism.html#L220)[ and added more descriptions](https://github.com/lim04francis/Tri2---p5longhorns/blob/ce63d00e5b3a677b5af804ca4c8636a74d966a77/templates/paintingdescriptions.html#L152)               |[Set up button in html,](https://github.com/lim04francis/Tri2---p5longhorns/blob/fb795bfdf542c032f86516f949e20d80e565c4ef/templates/photography.html#L211)[ set up code to hide and show description box](https://github.com/lim04francis/Tri2---p5longhorns/blob/d0dcd78a4e118dbca119c27fcdecd00c3405ab59/templates/photography.html#L255)|[Added button that links to other page](https://github.com/lim04francis/Tri2---p5longhorns/blob/58c6a17980ef8a29c46785c8d80f823dbcd379e7/templates/Movies.html#L18) [Added another movies page](https://github.com/lim04francis/Tri2---p5longhorns/blob/58c6a17980ef8a29c46785c8d80f823dbcd379e7/templates/actionmovies.html#L1)      | [Contributions](https://github.com/Bob1437)      |
-
-
-### Front End
-| Ticket 1  | Ticket 2  | Ticket 3 | Ticket 4  |
-| :------------- |:-------------                                |:-----    |:----                                            |
-| [Marc - Ticket #1](https://github.com/lim04francis/Tri2---p5longhorns/projects/1#card-53785220)               |[Francis - Ticket #2](https://github.com/lim04francis/Tri2---p5longhorns/projects/1#card-53784992)[ Photography Page](http://76.176.107.1/photography)|[Manuel - Ticket #3](https://github.com/lim04francis/Tri2---p5longhorns/projects/1#card-53785621)|[James - Ticket #4](https://github.com/lim04francis/Tri2---p5longhorns/projects/1#card-53793743)      |
-| [Worked on styling for LinkedIn page on Easter Egg](https://github.com/lim04francis/Tri2---p5longhorns/blob/26d566acd2708728b356ce29aa12ef4d5aeadb89/templates/marclinkedin.html#L3-L120)     |[Created multiple separate buttons with each description,](https://github.com/lim04francis/Tri2---p5longhorns/blob/3df21013322bdf6736d22cde01f05c4a8c29e8dc/templates/photography.html#L185-L225)[ Used JavaScript to create separate functions for each picture, ](https://github.com/lim04francis/Tri2---p5longhorns/blob/4c7f5210cdb9c0f972df95f3c09df3f1d6750a49/templates/photography.html#L309-L350)[Set up pictures in rows](https://github.com/lim04francis/Tri2---p5longhorns/blob/7b88445867f79b543adcbdf6771b8ebf7b8f5c6e/templates/photography.html#L246-L304)|[Added Private page for future, added a login page where you submit username and password](https://github.com/lim04francis/Tri2---p5longhorns/blob/04d911884ef52cf2fa1bbd71f00ee346cd609958/templates/login.html#L83-L131) [](https://github.com/lim04francis/Tri2---p5longhorns/blob/58c6a17980ef8a29c46785c8d80f823dbcd379e7/templates/actionmovies.html#L1)      | [Created all the files in this folder](https://github.com/lim04francis/Tri2---p5longhorns/tree/main/templates/Music) [Routed files to they can be accessed](https://github.com/lim04francis/Tri2---p5longhorns/blob/22899867dee6f003a3e1f5b60f7e330725e3c359/main.py#L49-L89) |
-
-
 
 
 ### [AP CSP Requirements Reflection Document](https://docs.google.com/document/d/1VXpFwf4a9hbRfqNfUkyfq4cgYS_rohieEd5pFr5qums/edit?usp=sharing)
