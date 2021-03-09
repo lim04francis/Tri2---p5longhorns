@@ -8,6 +8,7 @@
 
 ### Image Uploading Database
 - [Database](https://github.com/lim04francis/Tri2---p5longhorns/blob/42dd9608cb96f2554bfadddc52021f91c185e5bf/main.py#L142-L165) that allows users to submit images of art pieces they want to see included into the website
+- Integrated into website with proper [front end](https://github.com/lim04francis/Tri2---p5longhorns/blob/682d4e079c920b7f9a759b56cc563603956a7141/templates/index.html#L189-L192)
 
 ### [AP CSP Requirements Reflection Document](https://docs.google.com/document/d/1VXpFwf4a9hbRfqNfUkyfq4cgYS_rohieEd5pFr5qums/edit?usp=sharing)
 
