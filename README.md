@@ -53,17 +53,17 @@ To make a request to the API to grab a random quote I set up a [getQuote functio
 
 
 ### Home Page Background and Navbar (James H)
--I created the [moving waves background](https://github.com/lim04francis/Tri2---p5longhorns/blob/90b33d24c9616d3cbdf82cc24e57216bc89a6ca2/static/home.css#L1-L72) on the homepage as well as the created and edited the [navbar](https://github.com/lim04francis/Tri2---p5longhorns/blob/90b33d24c9616d3cbdf82cc24e57216bc89a6ca2/static/home.css#L79-L110) many times including for crossover suggestions
+- I created the [moving waves background](https://github.com/lim04francis/Tri2---p5longhorns/blob/90b33d24c9616d3cbdf82cc24e57216bc89a6ca2/static/home.css#L1-L72) on the homepage as well as the created and edited the [navbar](https://github.com/lim04francis/Tri2---p5longhorns/blob/90b33d24c9616d3cbdf82cc24e57216bc89a6ca2/static/home.css#L79-L110) many times including for crossover suggestions
 
 ### Created Music Genres Page and Search Bar (James H)
--Created the [Music genres](https://github.com/lim04francis/Tri2---p5longhorns/blob/main/templates/Music.html) page as well as every [subpage](https://github.com/lim04francis/Tri2---p5longhorns/tree/main/templates/Music).
--Created the [post form](https://github.com/lim04francis/Tri2---p5longhorns/blob/90b33d24c9616d3cbdf82cc24e57216bc89a6ca2/templates/Music.html#L25-L29) for the music page and [routed it's formaction](https://github.com/lim04francis/Tri2---p5longhorns/blob/90b33d24c9616d3cbdf82cc24e57216bc89a6ca2/main.py#L55-L95)
+- Created the [Music genres](https://github.com/lim04francis/Tri2---p5longhorns/blob/main/templates/Music.html) page as well as every [subpage](https://github.com/lim04francis/Tri2---p5longhorns/tree/main/templates/Music).
+- Created the [post form](https://github.com/lim04francis/Tri2---p5longhorns/blob/90b33d24c9616d3cbdf82cc24e57216bc89a6ca2/templates/Music.html#L25-L29) for the music page and [routed it's formaction](https://github.com/lim04francis/Tri2---p5longhorns/blob/90b33d24c9616d3cbdf82cc24e57216bc89a6ca2/main.py#L55-L95)
 
 ### Added Playable Songs On To Each Music Page (James H)
--On each music subpage, I added playable songs that pertain to the genre that was searched. [Example](https://github.com/lim04francis/Tri2---p5longhorns/blob/90b33d24c9616d3cbdf82cc24e57216bc89a6ca2/templates/Music/MusicCountry.html#L30-L33) + [Example](https://github.com/lim04francis/Tri2---p5longhorns/blob/main/static/Friends.mp3)
+- On each music subpage, I added playable songs that pertain to the genre that was searched. [Example](https://github.com/lim04francis/Tri2---p5longhorns/blob/90b33d24c9616d3cbdf82cc24e57216bc89a6ca2/templates/Music/MusicCountry.html#L30-L33) + [Example](https://github.com/lim04francis/Tri2---p5longhorns/blob/main/static/Friends.mp3)
 
 ### Deployment and Raspberry Pi Work (James H)
--I did the Raspberry Pi deployment process for my group. 
+- I did the Raspberry Pi deployment process for my group. 
 
 
 ### [AP CSP Requirements Reflection Document](https://docs.google.com/document/d/1VXpFwf4a9hbRfqNfUkyfq4cgYS_rohieEd5pFr5qums/edit?usp=sharing)
