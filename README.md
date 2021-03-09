@@ -21,6 +21,24 @@
 - Has links embedded into the overlays that takes the users to [paintingdescriptions.html](https://github.com/lim04francis/Tri2---p5longhorns/blob/main/templates/paintingdescriptions.html) so users can know the meaning behind the paintings.
 
 
+
+### JavaScript Description Buttons(Francis L)
+- After setting up the front end work for the [description boxes](https://github.com/lim04francis/Tri2---p5longhorns/blob/04f124523ddc6f6416bd2b3a7f77d0d9be4bb635/templates/photography.html#L185-L225) and [buttons](https://github.com/lim04francis/Tri2---p5longhorns/blob/04f124523ddc6f6416bd2b3a7f77d0d9be4bb635/templates/photography.html#L256-L311) on the Photography page, [I used JavaScript to make the buttons reveal and hide the description box](https://github.com/lim04francis/Tri2---p5longhorns/blob/04f124523ddc6f6416bd2b3a7f77d0d9be4bb635/templates/photography.html#L317-L358). JavaScript is executed when a button is clicked and an onclick event occurs when the user clicks an element. A function named [myfunction(#)](https://github.com/lim04francis/Tri2---p5longhorns/blob/a33dd4f226630c22b76f2693621cfcb42e4e69a5/templates/photography.html#L258) is assigned to an html element and when executed, toggles the description box from revealed to hidden and vice versa.
+
+### Web/Rest API - Random Quotes Machine
+-After setting up the front end CSS work needed for my random Trump quotes generator, I moved onto the Javascript and HTML. I first selected and element with the [DOM](https://github.com/lim04francis/Tri2---p5longhorns/blob/a33dd4f226630c22b76f2693621cfcb42e4e69a5/templates/quotesapi.html#L185) 
+Then I assigned a reference to the quote button to a new variable with [(code)](https://github.com/lim04francis/Tri2---p5longhorns/blob/a33dd4f226630c22b76f2693621cfcb42e4e69a5/templates/quotesapi.html#L185)
+I used the documentation of of an API that required no authentication and saved the url endpoint in a variable using 
+[(code)](https://github.com/lim04francis/Tri2---p5longhorns/blob/a33dd4f226630c22b76f2693621cfcb42e4e69a5/templates/quotesapi.html#L188)
+To make a request to the API to grab a random quote I set up a getQuote function using fetch, a try block, and a catch block 
+
+### Dictionaries/Lists for Subpage Headers(Francis L)
+- I devised a method for each member of my group to create and add a unique header for each subpage using data stored in a single line dictionary. In the python file main.py, following the [app route to my photography subpage](https://github.com/lim04francis/Tri2---p5longhorns/blob/a33dd4f226630c22b76f2693621cfcb42e4e69a5/main.py#L26-L29), [I added the following code](https://github.com/lim04francis/Tri2---p5longhorns/blob/a33dd4f226630c22b76f2693621cfcb42e4e69a5/main.py#L28), storing information such as the title, author, summary and period in a dictionary called “posts”. After assigning the dictionary value to the key “posts”, I went to my photography html file and using css and html, [printed out the data](https://github.com/lim04francis/Tri2---p5longhorns/blob/a33dd4f226630c22b76f2693621cfcb42e4e69a5/templates/photography.html#L242-L250) in an aesthetic format. 
+
+
+
+
+
 ### [AP CSP Requirements Reflection Document](https://docs.google.com/document/d/1VXpFwf4a9hbRfqNfUkyfq4cgYS_rohieEd5pFr5qums/edit?usp=sharing)
 
 ### [Project Plan and Design](https://docs.google.com/document/d/17C_nAyFtFvbdhyxUsUb1094QCTnxOj8Qtv0jS7bWbzI/edit?usp=sharing)
