@@ -6,7 +6,7 @@
 
 ## Technicals
 
-# Image Uploading Database
+### Image Uploading Database
 -Database that allows users to submit images of art pieces they want to see included into the website
 
 ### [AP CSP Requirements Reflection Document](https://docs.google.com/document/d/1VXpFwf4a9hbRfqNfUkyfq4cgYS_rohieEd5pFr5qums/edit?usp=sharing)
