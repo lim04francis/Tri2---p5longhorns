@@ -65,6 +65,7 @@ To make a request to the API to grab a random quote I set up a [getQuote functio
 ### Deployment and Raspberry Pi Work (James H)
 - I did the Raspberry Pi deployment process for my group. 
 
+## Details
 
 ### [AP CSP Requirements Reflection Document](https://docs.google.com/document/d/1VXpFwf4a9hbRfqNfUkyfq4cgYS_rohieEd5pFr5qums/edit?usp=sharing)
 
