@@ -38,6 +38,18 @@ To make a request to the API to grab a random quote I set up a [getQuote functio
 
 
 
+### Authorized User Login (Manuel V)
+- [Login Page](https://github.com/lim04francis/Tri2---p5longhorns/blob/b6cc49f46688c709231343a2e11388b97f196ef5/templates/login.html) that allows authorized users log into the page
+- uses [javascript](https://github.com/lim04francis/Tri2---p5longhorns/blob/b6cc49f46688c709231343a2e11388b97f196ef5/templates/login.html#L119)to tell the user if the username and password was correct and they have logged in, or if it was incorrect, give an error message
+
+### Buttons to Other Genres (Manuel V)
+- made [buttons](https://github.com/lim04francis/Tri2---p5longhorns/blob/b6cc49f46688c709231343a2e11388b97f196ef5/templates/Movies.html#L22) that link the main movies page to other [genres](https://github.com/lim04francis/Tri2---p5longhorns/blob/b6cc49f46688c709231343a2e11388b97f196ef5/templates/actionmovies.html) of the movies page as well as the more information tab
+
+### More Information tab(Manuel V)
+- Created [more information tab](https://github.com/lim04francis/Tri2---p5longhorns/blob/b6cc49f46688c709231343a2e11388b97f196ef5/templates/moviesummaries.html) that had trailers and descriptions in it about all movies
+  - Has links to trailers [embedded](https://github.com/lim04francis/Tri2---p5longhorns/blob/b6cc49f46688c709231343a2e11388b97f196ef5/templates/moviesummaries.html#L101) so you can watch the trailers for the movies directly on the website
+
+
 
 ### [AP CSP Requirements Reflection Document](https://docs.google.com/document/d/1VXpFwf4a9hbRfqNfUkyfq4cgYS_rohieEd5pFr5qums/edit?usp=sharing)
 
