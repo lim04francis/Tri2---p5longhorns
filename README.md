@@ -15,6 +15,11 @@
 - Uses a [variable in the app.route](https://github.com/lim04francis/Tri2---p5longhorns/blob/40bbc06216777d0b60c6d700c9be540a6379ab43/main.py#L106-L108) for the jinja for loop in the html file
 - [Jinja for loop](https://github.com/lim04francis/Tri2---p5longhorns/blob/40bbc06216777d0b60c6d700c9be540a6379ab43/templates/paintinglist.html#L124-L139) to iterate through the dictionaries in the list and print key values into the table
 
+### Painting Overlays
+- Uses CSS in order to create a [sliding overlay](https://github.com/lim04francis/Tri2---p5longhorns/blob/04f124523ddc6f6416bd2b3a7f77d0d9be4bb635/templates/cubism.html#L50-L160) that covers the paintings
+  - Uses [classes and divs](https://github.com/lim04francis/Tri2---p5longhorns/blob/04f124523ddc6f6416bd2b3a7f77d0d9be4bb635/templates/cubism.html#L181-L189) in order to have CSS apply
+- Has links embedded into the overlays that takes the users to [paintingdescriptions.html](https://github.com/lim04francis/Tri2---p5longhorns/blob/main/templates/paintingdescriptions.html) so users can know the meaning behind the paintings.
+
 
 ### [AP CSP Requirements Reflection Document](https://docs.google.com/document/d/1VXpFwf4a9hbRfqNfUkyfq4cgYS_rohieEd5pFr5qums/edit?usp=sharing)
 
