@@ -10,6 +10,12 @@
 - [Database](https://github.com/lim04francis/Tri2---p5longhorns/blob/42dd9608cb96f2554bfadddc52021f91c185e5bf/main.py#L142-L165) that allows users to submit images of art pieces they want to see included into the website
 - Integrated into website with proper [front end](https://github.com/lim04francis/Tri2---p5longhorns/blob/682d4e079c920b7f9a759b56cc563603956a7141/templates/index.html#L189-L192)
 
+### Painting List
+- Has a python file with [dictionaries of each paintings](https://github.com/lim04francis/Tri2---p5longhorns/blob/40bbc06216777d0b60c6d700c9be540a6379ab43/paintings.py#L1-L27) with key values assigned. Then has the dictionaries put into a [single list](https://github.com/lim04francis/Tri2---p5longhorns/blob/40bbc06216777d0b60c6d700c9be540a6379ab43/paintings.py#L29) to be referenced in code elsewhere
+- Uses a [variable in the app.route](https://github.com/lim04francis/Tri2---p5longhorns/blob/40bbc06216777d0b60c6d700c9be540a6379ab43/main.py#L106-L108) for the jinja for loop in the html file
+- [Jinja for loop](https://github.com/lim04francis/Tri2---p5longhorns/blob/40bbc06216777d0b60c6d700c9be540a6379ab43/templates/paintinglist.html#L124-L139) to iterate through the dictionaries in the list and print key values into the table
+
+
 ### [AP CSP Requirements Reflection Document](https://docs.google.com/document/d/1VXpFwf4a9hbRfqNfUkyfq4cgYS_rohieEd5pFr5qums/edit?usp=sharing)
 
 ### [Project Plan and Design](https://docs.google.com/document/d/17C_nAyFtFvbdhyxUsUb1094QCTnxOj8Qtv0jS7bWbzI/edit?usp=sharing)
